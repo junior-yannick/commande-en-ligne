@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="436.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.SelectionRestaurantController">
+   <children>
+      <ComboBox fx:id="comboRestaurants" layoutX="242.0" layoutY="58.0" onAction="#initialize" prefWidth="150.0" promptText="Selectionner" />
+      <Label layoutX="14.0" layoutY="61.0" text="Veuillez choisir un restaurant">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="boutonSuivant" layoutX="352.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleSuivantAction" text="Suivant" />
+      <Button fx:id="boutonPrecedent" layoutX="14.0" layoutY="168.0" mnemonicParsing="false" onAction="#handlePrecedentAction" text="Précédent " />
+   </children>
+</AnchorPane>

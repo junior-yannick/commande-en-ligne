@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="406.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.panierController">
+   <children>
+      <ListView fx:id="listeProduitsPanier" prefHeight="308.0" prefWidth="600.0" />
+      <Label fx:id="labelPrixTotal" layoutX="414.0" layoutY="331.0" prefHeight="17.0" prefWidth="172.0" text="Total : 0.00 $" />
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#handlePrecedentAction" text="Précédent " />
+      <Button layoutX="517.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleSuivantAction" text="Continuer" />
+   </children>
+</AnchorPane>

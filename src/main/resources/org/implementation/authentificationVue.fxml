@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane onDragDetected="#handleRegisterAction" prefHeight="373.0" prefWidth="568.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.MainController">
+    <children>
+        <Label layoutX="49.0" layoutY="136.0" text="Nom d'utilisateur">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="champNomUtilisateur" layoutX="197.0" layoutY="133.0" prefHeight="26.0" prefWidth="246.0" promptText="admin" />
+        <Label layoutX="49.0" layoutY="201.0" text="Mot de passe">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="boutonConnexion" layoutX="284.0" layoutY="249.0" mnemonicParsing="false" onAction="#handleLoginAction" text="Connexion" />
+        <Button fx:id="boutonEnregistrement" layoutX="471.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleRegisterAction" text="S'enregistrer" />
+        <PasswordField fx:id="champMotDePasse" layoutX="197.0" layoutY="198.0" prefHeight="26.0" prefWidth="246.0" promptText="admin" />
+      <Label layoutX="234.0" layoutY="21.0" text="Authentification">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="71.0" text="Veuillez entrer vos informations de connexion">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.paiementController">
+   <children>
+      <Label layoutX="64.0" layoutY="34.0" text="Veuillez soumettre les informations de votre carte de crédit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="138.0" text="Numero de carte">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeroCarteTextField" layoutX="211.0" layoutY="135.0" prefHeight="26.0" prefWidth="265.0" promptText="16 chiffres" />
+      <Label layoutX="37.0" layoutY="209.0" text="Code de securite">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="209.0" text="Date d'expiration">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cvvTextField" layoutX="162.0" layoutY="207.0" prefHeight="26.0" prefWidth="104.0" promptText="123" />
+      <DatePicker fx:id="datePickerExpiration" layoutX="416.0" layoutY="206.0" />
+      <Button fx:id="payerButton" layoutX="530.0" layoutY="355.0" mnemonicParsing="false" onAction="#handlePayerAction" prefHeight="26.0" prefWidth="55.0" text="Payer" />
+      <Button layoutX="339.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleSupprimerAction" text="Supprimer ma commande" />
+   </children>
+</AnchorPane>

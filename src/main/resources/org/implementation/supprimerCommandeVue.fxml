@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="373.0" prefWidth="521.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.supprimerCommandeController">
+   <children>
+      <Pane layoutX="1.0" prefHeight="328.0" prefWidth="520.0">
+         <children>
+            <Label layoutX="163.0" layoutY="23.0" text="Supprimer une commande">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ListView fx:id="listViewProduits" layoutX="2.0" layoutY="77.0" prefHeight="251.0" prefWidth="520.0" />
+            <Label layoutX="47.0" layoutY="59.0" text="IMPORTANT : si aucun produit n'a été ajouté dans le panier, cette page sera vide" />
+         </children></Pane>
+      <Button layoutX="435.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleSupprimerProduit" text="Supprimer" />
+      <Button layoutX="14.0" layoutY="333.0" mnemonicParsing="false" onAction="#handlePrecedentAction" text="Précédent " />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.finaliserController">
+   <children>
+      <ComboBox fx:id="comboLivraison" layoutX="243.0" layoutY="119.0" prefWidth="150.0" promptText="Selectionner" />
+      <ComboBox fx:id="comboPaiement" layoutX="243.0" layoutY="200.0" prefWidth="150.0" promptText="Selectionner" />
+      <Button fx:id="boutonPrecedent" layoutX="31.0" layoutY="342.0" mnemonicParsing="false" onAction="#handlePrecedentAction" text="précédent " />
+      <Button fx:id="boutonSuivant" layoutX="511.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleSuivantAction" text="Suivant" />
+      <Label layoutX="73.0" layoutY="123.0" text="Mode de livraison">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="203.0" text="Option de paiement">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="42.0" text="Pour finaliser votre commande, veuillez compléter les différentes options suivantes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

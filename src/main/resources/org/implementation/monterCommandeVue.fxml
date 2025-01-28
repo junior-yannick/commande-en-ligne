@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="394.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.monterCommandeController">
+    <children>
+        <VBox layoutX="14.0" layoutY="14.0" spacing="10" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <ListView fx:id="listViewProduits" prefHeight="288.0" prefWidth="590.0" />
+            <HBox spacing="10" />
+        </VBox>
+      <Button layoutX="527.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleAllerPanier" prefHeight="26.0" prefWidth="58.0" text="Panier" />
+      <Button layoutX="10.0" layoutY="356.0" mnemonicParsing="false" onAction="#handlePrecedent" text="Precedent" />
+          <Button layoutX="145.0" layoutY="299.0" onAction="#handleAnnuler" text="Annuler" />
+          <Button layoutX="20.0" layoutY="299.0" onAction="#handleAjouterAuPanier" text="Ajouter au panier" />
+    </children>
+</AnchorPane>

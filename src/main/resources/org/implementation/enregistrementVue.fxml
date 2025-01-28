@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.enregistrementController">
+   <children>
+      <Label layoutX="128.0" layoutY="53.0" text="Veuillez entrer vos informations personnelles">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="113.0" text="Nom">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="161.0" text="Prenom">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="208.0" text="Adresse du domicile">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="255.0" text="Adresse courriel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="305.0" text="Numero de carte de credit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="353.0" text="Code de securite">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="402.0" text="date d'expiration">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="champNom" layoutX="226.0" layoutY="111.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="champPrenom" layoutX="227.0" layoutY="158.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="champAdresse" layoutX="226.0" layoutY="206.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="champEmail" layoutX="226.0" layoutY="253.0" prefHeight="26.0" prefWidth="211.0" promptText="bertrant@gmail.com" />
+      <TextField fx:id="champNumCarte" layoutX="228.0" layoutY="303.0" prefHeight="26.0" prefWidth="211.0" promptText="16 chiffres" />
+      <TextField fx:id="champCodeSecurite" layoutX="227.0" layoutY="351.0" prefHeight="26.0" prefWidth="211.0" promptText="123" />
+      <Button fx:id="boutonEnregistrer" layoutX="497.0" layoutY="446.0" mnemonicParsing="false" onAction="#handleEnregistrerAction" text="Enregistrer" />
+      <Button fx:id="boutonPrecedent" layoutX="26.0" layoutY="446.0" mnemonicParsing="false" onAction="#handlePrecedentAction" text="Precedent" />
+      <TextField fx:id="champDateExpiration" layoutX="226.0" layoutY="400.0" prefHeight="26.0" prefWidth="211.0" promptText="04/2026" />
+   </children>
+</AnchorPane>

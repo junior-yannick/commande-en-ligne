@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.implementation.menuController">
+   <children>
+      <VBox layoutX="-2.0" layoutY="-4.0" prefHeight="483.0" prefWidth="176.0" style="-fx-background-color: #336699;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleMonterCommande" prefHeight="26.0" prefWidth="199.0" text="Monter une commande" />
+            <Button mnemonicParsing="false" onAction="#handleSupprimerCompte" prefHeight="26.0" prefWidth="183.0" text="Supprimer son compte" />
+         </children>
+      </VBox>
+      <ImageView fitHeight="50.0" fitWidth="76.0" layoutX="234.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="76.0" layoutX="359.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="86.0" layoutX="486.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="76.0" layoutX="242.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="76.0" layoutX="369.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="76.0" layoutX="518.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="108.0" text="Big mag" />
+      <Label layoutX="383.0" layoutY="108.0" text="Frites" />
+      <Label layoutX="493.0" layoutY="108.0" text="cheeseBurgur" />
+      <Label layoutX="242.0" layoutY="223.0" text="Coca Cola" />
+      <Label layoutX="384.0" layoutY="232.0" text="Poulet" />
+      <Label layoutX="502.0" layoutY="232.0" text="Bouteille eau" />
+      <Label layoutX="272.0" layoutY="8.0" prefHeight="18.0" prefWidth="348.0" text="Catalogue des produits disponibles">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="76.0" layoutX="234.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="69.0" layoutX="363.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="61.0" layoutX="509.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_8.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="254.0" layoutY="337.0" text="Ndolet" />
+      <Label layoutX="380.0" layoutY="337.0" text="Plantain" />
+      <Label layoutX="507.0" layoutY="337.0" text="Mac pouletl" />
+      <ImageView fitHeight="57.0" fitWidth="69.0" layoutX="238.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="73.0" layoutX="376.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="68.0" layoutX="501.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/img_11.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="233.0" layoutY="413.0" text="Jus de pomme" />
+      <Label layoutX="363.0" layoutY="413.0" text="Jus d'orange" />
+      <Label layoutX="516.0" layoutY="413.0" text="Tomate" />
+   </children>
+</AnchorPane>
